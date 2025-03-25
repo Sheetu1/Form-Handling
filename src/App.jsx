@@ -1,8 +1,5 @@
 import { useState } from "react";
 
-
-
-
 function App() {
 
   const [name, setName] = useState('')
@@ -46,16 +43,9 @@ function App() {
             {item.checked ? <p className="inline-block mt-2 px-4 py-1 text-xs bg-yellow-400 rounded-full text-white font-semibold">Favourite</p> : ""}
           </div>
         ))}
-
-
+        
       </div>
-
-
-
     </div>
-
-
-
   )
 }
 export default App;
